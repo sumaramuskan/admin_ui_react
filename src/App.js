@@ -8,6 +8,7 @@ import Layout from './components/Layout';
 import Users from './components/Users';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
+
 function App() {
   const userData = [
     {
@@ -53,10 +54,14 @@ function App() {
   return (
     <div>
       <Router>
+          {/* <Navbar/> */}
+          {/* <Sidebar/> */}
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/page" element={<Layout />}>
-          </Route>
+
+
+          {/* <Route path="/page" element={<Layout />}/> */}
+          {/* </Route> */}
           <Route path="payments" element={<Layout children={<Payment billingData={billingData} />}/>} />
           <Route path="users" element={<Layout children={<Users userData={userData} />}/>} />
         </Routes>

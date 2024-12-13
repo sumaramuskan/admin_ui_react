@@ -90,7 +90,7 @@ const Login = () => {
                 
                 className="w-330 bg-s6 text-white py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none "
               >
-                <Link to="/page"> Sign In </Link>
+                <Link to="/users"> Sign In </Link>
               </button>
             </div>
           </form>
