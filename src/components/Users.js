@@ -111,7 +111,7 @@ const Users = ({ userData = [] }) => {
                     ))}
                 </div>
             </div>
-            {/* <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 mb-2">
+            {/* <div className="grid grid-cols-1 gap-6 sm:"grid-cols-2 md:grid-cols-3 mb-2">
                 {cardsData.map((card, index) => (
                     <CardDataStats
                         key={index}
